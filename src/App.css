@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+}
+.web-cam-parent-panel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+}
+.web-cam-panel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.web-cam-stack-item {
+  width: 100%;
+}
+.setting-panel {
+  width: 100%;
+}
+.face-mask-panel {
+  width: 100%;
+  background-color: aquamarine;
+}
+
+@media only screen and (max-width: 426px) {
+  .App {
+    flex-direction: column;
+  }
+  .web-cam-parent-panel {
+    flex-direction: column;
+  }
+  .web-cam-panel {
+    flex-direction: column;
+  }
+}
