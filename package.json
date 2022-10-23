@@ -1,6 +1,6 @@
 {
   "homepage": "https://thinkaboutzuyu.github.io/f-d-res",
-  "name": "facemask-detection",
+  "name": "f-d-res",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
